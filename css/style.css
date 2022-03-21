@@ -1,0 +1,178 @@
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 1rem;
+  color: black;
+}
+body{
+  text-align: center;
+  font-family: Roboto;
+  font-size: 2em;
+  color: black;
+  background-image: linear-gradient(white, #BFC1C2);
+  margin: 0;
+}
+/****background&First section****/
+.showcase{
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+.backvid{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+.backvid video{
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contant{
+  z-index: 10;
+  color: black;
+}
+.F1{
+  font-size: 9.865rem;
+  font-family: Hurricane;
+  margin: 0;
+  color: #20B2AA;
+}
+.F2{
+  font-size: 5.5625rem;
+  font-family: Hurricane;
+  margin: 0;
+  position: absolute;
+  left: 50px;
+  bottom: 500px;
+  color: #20B2AA;
+}
+
+.color-overlay{
+  height: 100vh;
+  width: 100%;
+  background: white;
+  opacity: .3;
+  position: absolute;
+  z-index: 8;
+}
+
+/******Middle&sec.section*****/
+.middle-container{
+font-size: 1em;
+}
+.H22{
+  font-size: 3em;
+  margin-top: 0;
+  color: #20B2AA;
+  position: absolute center;
+  margin-bottom: 60px;
+}
+.H23{
+  width: 30%;
+  margin: auto;
+
+}
+.H24{
+  margin-top: 60px;
+  color: #20B2AA;
+  position: absolute center;
+  margin-bottom: 60px;
+}
+.H26{
+  margin-top: 60px;
+  color: #20B2AA;
+
+}
+.profile{
+  position: relative;
+  align-items: center;
+  margin-top: 60px;
+}
+.skills{
+  position: relative;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.contact-me{
+  position: relative;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.img{
+  height: 250px;
+  width: 250px;
+  position: absolute center;
+  margin-top: 10px;
+
+}
+.im2{
+  height: 250px;
+  width: 250px;
+  position: absolute center;
+  margin-top: 10px;
+}
+.img3{
+  height: 250px;
+  width: 250px;
+  margin: auto;
+  position: absolute center;
+  margin-top: 10px;
+}
+.ULL1{
+  display: inline-block; text-align: left;
+}
+.ULL{
+  text-align: center;
+}
+hr{
+  width: 7%;
+      border-style: dotted none none;
+      border-width: 10px;
+      border-color: dimgrey;
+}
+/*********Contactme.section******/
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #20B2AA;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #00ffee;
+  background-image: -webkit-linear-gradient(top, #00ffee, #3498db);
+  background-image: -moz-linear-gradient(top, #00ffee, #3498db);
+  background-image: -ms-linear-gradient(top, #00ffee, #3498db);
+  background-image: -o-linear-gradient(top, #00ffee, #3498db);
+  background-image: linear-gradient(to bottom, #00ffee, #3498db);
+  text-decoration: none;
+}
+.bottom-container{
+  background-color: #20B2AA;
+  padding: 20px 0 20px;
+  font-size: 1rem;
+}
